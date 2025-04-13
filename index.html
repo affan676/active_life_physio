@@ -3,77 +3,118 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Top Physiotherapy Services in Wilmington, NC.">
-  <title>Active Life Physiotherapy</title>
+  <meta name="description" content="Expert Physiotherapy in Wilmington, NC for pain relief and rehab.">
+  <title>Active Life Physio</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f7f7f7;
-      color: #333;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
     }
-    header {
-      background: #2b6cb0;
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    .logo-text {
+      font-size: 18px;
+      font-weight: bold;
+      color: #2b6cb0;
+    }
+    .nav-buttons a {
+      text-decoration: none;
+      margin-left: 15px;
+      padding: 10px 14px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .btn-outline {
+      border: 2px solid #2b6cb0;
+      color: #2b6cb0;
+    }
+    .btn-outline:hover {
+      background-color: #2b6cb0;
       color: white;
-      text-align: center;
-      padding: 40px 20px;
     }
-    section {
-      padding: 40px 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    h1, h2 {
-      margin-bottom: 10px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    footer {
-      background: #2b6cb0;
+    .btn-solid {
+      background-color: #003b47;
       color: white;
+    }
+    .btn-solid:hover {
+      background-color: #005566;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1606811841689-81f2c83d4402') no-repeat center center/cover;
+      color: black;
       text-align: center;
-      padding: 20px;
+      padding: 100px 20px;
+      position: relative;
+    }
+    .hero h1 {
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      background-color: rgba(0, 82, 204, 0.9);
+      color: white;
+      display: inline-block;
+      padding: 15px 20px;
+      font-size: 16px;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+    }
+    .hero .btn-solid {
+      padding: 12px 24px;
+      font-size: 14px;
     }
     @media (max-width: 600px) {
-      header, section, footer {
-        padding: 20px 10px;
+      .hero h1 {
+        font-size: 28px;
+      }
+      .hero p {
+        font-size: 14px;
+        padding: 10px 12px;
       }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Active Life Physiotherapy</h1>
-    <p>Healing through movement</p>
-  </header>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>We provide expert physiotherapy services in Wilmington, NC. Our mission is to help you move better, feel better, and live better.</p>
-  </section>
+  <!-- NAVIGATION -->
+  <div class="navbar">
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png" alt="Logo">
+      <div class="logo-text">ACTIVE <span style="color:#007b5e;">LIFE</span> PHYSIO</div>
+    </div>
+    <div class="nav-buttons">
+      <a href="tel:9105979981" class="btn-outline">(910) 597-9981</a>
+      <a href="#" class="btn-outline">REVIEW US</a>
+      <a href="#" class="btn-solid">REQUEST APPOINTMENT</a>
+    </div>
+  </div>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Manual Therapy</li>
-      <li>Sports Injury Rehabilitation</li>
-      <li>Post-Surgical Recovery</li>
-      <li>Dry Needling</li>
-      <li>Exercise Therapy</li>
-    </ul>
-  </section>
+  <!-- HERO SECTION -->
+  <div class="hero">
+    <h1>Expert Physiotherapy in Wilmington, NC - Pain Relief & Rehabilitation</h1>
+    <p>Get expert physiotherapy in Wilmington, NC for pain relief, sports rehab, and recovery. Personalized care for faster healing.</p>
+    <a href="#" class="btn-solid">REQUEST APPOINTMENT</a>
+  </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:contact@activelifephysio.com">contact@activelifephysio.com</a></p>
-    <p>Phone: <a href="tel:9101234567">(910) 123-4567</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Active Life Physiotherapy</p>
-  </footer>
 </body>
 </html>
+
 
